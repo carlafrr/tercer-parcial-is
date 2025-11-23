@@ -5,7 +5,6 @@
     --font-primary: "Manrope", sans-serif;
     --grey-20: #333333;
     --grey-30: #4d4d4d;
-    
 }
 
 
@@ -82,3 +81,76 @@ body {
 .narrow {
     grid-column: span 2;
 }
+
+/* MARIO */
+
+.contact ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    gap: 20px;    
+    list-style-type: none;
+    justify-content: right;
+    align-items: center;
+}
+
+.we_loved_from_header ul{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.we_loved_from_header ul li{
+    border: 1px  solid#EBE7E0;
+    border-radius: 8px;
+    padding: 12px 16px;}
+
+.we_loved_from_description p{
+    font-size: 20;
+    color: #4D4D4D;
+}
+
+.we_loved_from_header h3{
+    font-size: 48px;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+.we_loved_from .grid-container ul{
+    display: flex;
+    background: #F5F3F0;
+    justify-content: center;
+    width: 1296px;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.iconos_redes .grid-container{
+    display: flex;
+    flex-direction: row;
+    background: #F5F3F0;
+    justify-content: center;
+}
+
+.we_loved_from .contact .destacado_uno{
+    display: flex;
+    color: #5700FF;
+    font-size: 24px;
+    justify-content: flex-start;
+}
+
+.destacado_dos{
+    border: #F5F3F0;
+    border-radius: 8px;
+    color: #F5F3F0;
+    padding: 5px; /* Opcional: añade un poco de espacio entre el contenido y el borde */
+}
+  
