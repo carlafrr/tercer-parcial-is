@@ -82,3 +82,54 @@ body {
 .narrow {
     grid-column: span 2;
 }
+
+.heroabout{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding-top: 124px;
+  gap: 80px;
+  font-size: 18px;
+  font-family: Manrope;
+  justify-content: center;
+}
+
+.heroaboutdescription{
+width: 758px;
+}
+
+.welcome{
+display: flex;
+height: 64;
+font-size: 24px;
+background-color: white;
+color: #333333;
+width: 570px;
+border-radius: 8px;
+align-items:center;
+justify-items: center;
+}
+
+.imjeff{
+padding-top: 20px;
+}
+
+.imjeff p{
+color: #4D4D4D;
+font-size: 14px;
+}
+
+.aboutstats{
+ display: flex;
+ margin-top: 60px;
+ padding: 20px 0px 20px 0px;
+ border: solid #5700FF 1px;
+ border-left: none;
+ border-right: none;
+ gap: 50px;
+}
+
+.aboutstats p{
+color: #4D4D4D;
+font-size: 14px;
+}
