@@ -10,7 +10,7 @@
 body {
 font-family: "Manrope", sans-serif;
 
-    background-color: #EEEBE5; /* Color de fondo beige suave */
+    background-color: #EEEBE5; 
     color: #333;
     line-height: 1.6;
 }
@@ -70,7 +70,7 @@ font-family: "Manrope", sans-serif;
     height: 40px;
     border: none;
     background-color: #fff;
-    border-radius: 4px; /* Un poco cuadrado como en la imagen */
+    border-radius: 4px; 
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -90,7 +90,7 @@ font-family: "Manrope", sans-serif;
     gap: 20px;
 }
 
-/* Estilo de la Tarjeta Individual */
+
 .review-card {
     background-color: #fff;
     padding: 40px;
@@ -100,7 +100,7 @@ font-family: "Manrope", sans-serif;
     flex-direction: column;
 }
 
-/* Cabecera interna de la tarjeta (Nombre + Iconos) */
+
 .card-header {
     display: flex;
     justify-content: space-between;
@@ -120,7 +120,7 @@ font-family: "Manrope", sans-serif;
     color: #777;
 }
 
-/* --- AQUÍ ESTÁN LOS HUECOS PARA TUS SVGs --- */
+
 .social-icons{
     display: flex;
     gap: 10px;
@@ -130,39 +130,39 @@ font-family: "Manrope", sans-serif;
 .svg-placeholder {
     width: 32px;
     height: 32px;
-    background-color: #F5F5F5; /* Color gris claro de fondo temporal */
+    background-color: #F5F5F5; 
     border-radius: 6px;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    /* Borde sutil opcional, quitar si el SVG no lo necesita */
+    
     border: 1px solid #eee; 
     
     
 }
 
-/* Ajuste para que tus imágenes SVG se vean bien dentro */
+
 .svg-placeholder img, 
 .svg-placeholder svg {
     width: 100%;
     height: 100%;
-    object-fit: contain; /* Ajusta la imagen sin deformarla */
-    padding: 6px; /* Espacio interno para que el logo no toque los bordes */
+    object-fit: contain; 
+    padding: 6px; 
 }
 
-/* --- FIN ZONA LOGOS --- */
+
 
 /* Estrellas */
 .rating {
-    color: #6200ea; /* Color morado exacto de la imagen */
+    color: #6200ea; 
     margin-bottom: 20px;
     font-size: 1.1rem;
     display: flex;
     gap: 4px;
 }
 
-/* Texto de la reseña */
+
 .review-text {
     font-size: 0.95rem;
     color: #555;
@@ -170,14 +170,16 @@ font-family: "Manrope", sans-serif;
     text-align: left;
 }
 
-/* Responsive para pantallas pequeñas */
+
+
 @media (max-width: 768px) {
     .section-header h2 {
-        font-size: 2rem;
+    font-size: 2rem;
     }
     
+    
     .cards-grid {
-        grid-template-columns: 1fr; /* Una columna en móvil */
+        grid-template-columns: 1fr; 
     }
     
     .review-card {
