@@ -31,7 +31,7 @@
 .logo {
     font-size: 24px;
     font-weight: 700;
-    color: #7C3AED; 
+    color: var(--color-primary); 
 }
 
 .navbar nav a {
